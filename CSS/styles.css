@@ -29,7 +29,26 @@
     color:#0f0f0f;
 }
 
-.description{
-    display: d-none;
-    display: d-sm-block;
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
 }
+
+.navbar-dark {
+     background-color: #512DA8;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #FFFF00;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .card-header{
+    background-color: #FFFF00;
+  }
